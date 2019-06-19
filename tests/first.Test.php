@@ -1,6 +1,6 @@
 <?php
 use PHPUnit\Framework\TestCase;
-require_once("../index.php");
+require_once(__DIR__."/../index.php");
 
 class StackTest extends TestCase
 {
