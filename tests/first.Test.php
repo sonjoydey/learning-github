@@ -16,7 +16,7 @@ class StackTest extends TestCase
     public function testMultiple()
     {
         $this->assertEquals(5, 2+3);
-        $this->assertEquals(5, 2+2);
-        
+        $this->assertEquals(4, 2+2);
+
     }
 }
