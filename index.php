@@ -1,6 +1,16 @@
 <?php
 
-  echo "Hello World";
-  echo 5+5;
+ function add($a, $b){
+ 	return $a+$b;
+ }
+
+ function expectedString($testString){
+ 	if($testString == "jenkins"){
+ 		return true;
+ 	}
+ 	else{
+ 		return false;
+ 	}
+ }
 
 ?>

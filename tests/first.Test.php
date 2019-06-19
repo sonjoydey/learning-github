@@ -1,22 +1,19 @@
 <?php
 use PHPUnit\Framework\TestCase;
+require_once("../index.php");
 
 class StackTest extends TestCase
 {
-    public function testTrue()
+    public function testexpectedString()
     {
-        $this->assertTrue(true);
-    }
-
-    public function testFalse()
-    {
-        $this->assertFalse(false);
+        $this->assertTrue(expectedString("jenkins"));
+        $this->assertFalse(expectedString("fail"));
     }
 
     public function testMultiple()
     {
-        $this->assertEquals(5, 2+3);
-        $this->assertEquals(4, 2+2);
+        $this->assertEquals(5, add(3, 2));
+        $this->assertEquals(4, add(3, 2));
 
     }
 }
