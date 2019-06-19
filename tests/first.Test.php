@@ -10,10 +10,23 @@ class StackTest extends TestCase
         $this->assertFalse(expectedString("fail"));
     }
 
+    public function testexpectedStringAnother()
+    {
+        $this->assertTrue(expectedString("failone"));
+        $this->assertFalse(expectedString("jenkins"));
+    }
+
     public function testMultiple()
     {
         $this->assertEquals(5, add(3, 2));
         $this->assertEquals(4, add(3, 2));
+    }
 
+    public function testMultipleAgain()
+    {
+        $this->assertEquals(5, add(3, 2));
+        $this->assertEquals(4, add(3, 2));
+        $this->assertEquals(6, add(3, 2));
+        $this->assertEquals(7, add(3, 2));
     }
 }
