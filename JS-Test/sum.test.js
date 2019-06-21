@@ -1,7 +1,7 @@
 const sum = require('./sum');
 const sub = require('./sum2');
 
-describe('File1', () => {
+test('File1', () => {
 
 	test('Result for 1+2', () => {
 	  expect(sum(1, 2)).toBe(3);
