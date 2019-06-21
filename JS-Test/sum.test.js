@@ -1,7 +1,7 @@
 const sum = require('./sum');
 const sub = require('./sum2');
 
-test.todo('Group All');
+test.todo('Group All'){
 
 test('Result for 1+2', () => {
   expect(sum(1, 2)).toBe(3);
@@ -18,3 +18,6 @@ test('Result for 3+2', () => {
 test('Result for 25-2', () => {
   expect(sub(25, 2)).toBe(23);
 });
+
+};
+
