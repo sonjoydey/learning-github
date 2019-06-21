@@ -7,8 +7,8 @@
   	"suiteName": "jest tests",
     "outputDirectory": "../tests/",
     "outputName": "junit.test.xml",
-    "classNameTemplate": "{classname}-{title}",
-    "titleTemplate": "{classname}-{title}",
+    "classNameTemplate": "{classname}",
+    "titleTemplate": "{title}",
     "ancestorSeparator": " › ",
     "usePathForSuiteName": "true"
   },
