@@ -4,7 +4,7 @@
   },
 
   "jest-junit": {
-    "outputDirectory": "../",
+    "outputDirectory": "../tests/",
     "outputName": "junit.test.xml",
     "classNameTemplate": "{classname}-{title}",
     "titleTemplate": "{classname}-{title}",
